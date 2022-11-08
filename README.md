@@ -1,4 +1,5 @@
 # SEARCH APARTMENT
+![photo](https://github.com/vfiruz97/apartment-search/blob/main/welcome.png?raw=true)
 
 This is a simple project to make a search from db developed on top of `Laravel 8.1`. It uses `Vue 3`, `tailwindcss`, `Element UI` in the frontend. 
 
@@ -33,4 +34,6 @@ This is a simple project to make a search from db developed on top of `Laravel 8
 
 
 ## Note:
-    Since I was using Element UI very first time so I could not know its properties properly to save estimated time I used Tailwindcss to layouts the Element UI`s components. The result was exciting to me.
+```
+Since I was using Element UI very first time so I could not know its properties properly to save estimated time I used Tailwindcss to layouts the Element UI`s components. The result was exciting to me.
+```
