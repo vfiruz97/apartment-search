@@ -14,7 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::name('property.')->group(function () {
-    Route::get('/', [PropertyController::class, 'index'])->name('index');
-    Route::post('/property/search', [PropertyController::class, 'search'])->name('search');
-});
+Route::get('/', [PropertyController::class, 'index'])->name('index');
