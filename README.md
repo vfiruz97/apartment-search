@@ -1,3 +1,9 @@
+## Commands were used during development
+- `composer create-project laravel/laravel:^8.1 app` - Creates Laravel Project
+- `php artisan make:migration create_properties_table` - Creates `properties` table in the db
+- `php artisan make:seeder PropertySeeder` - Creates seeder to insert initial data for `properties` table
+- `php artisan migrate --seed` - Runs both migration`s files and seeders
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
