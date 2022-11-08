@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\Property\PropertyController;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +14,7 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', function () {
-    return Inertia::render('Index');
+Route::name('property.')->group(function () {
+    Route::get('/', [PropertyController::class, 'index'])->name('index');
+    Route::post('/property/search', [PropertyController::class, 'search'])->name('search');
 });
